@@ -8,30 +8,31 @@ body {
 button {
   background-color: #04b0e0; /* Blue */
   border: none;
-  border-radius: 12 px;
+  border-radius: 7%;
   color: white;
-  padding: 15px 32px;
+  padding: 1.5%;
   text-align: center;
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
-  margin: 4px 2px;
   font-family: Helvetica;
   cursor:pointer;
+  width: 150px;
+  max-width: 100%;
 }
 
-p {
-  padding: 8px;
-  margin: 25px;
-
-  /* other styling */
+p { /* other styling */
   background-color: #33475b;
-  border-radius: 10px;
   color: white;
+  padding: 2%;
   font-family: Avenir;
   text-align:center;
-  width: 592px;
+  height: 120px;
+  min-height: 100%;
+  width: 600px;
+  max-width: 100%;
   font-family: Helvetica;
+  font-size: 12;
 }
 
 yt-button {
@@ -47,4 +48,45 @@ yt-button {
   margin: 4px 2px;
   font-family: Helvetica;
   cursor:pointer;
+}
+
+.otro-blockquote{
+  font-size: 1.4em;
+  width:35%;
+  margin:50px auto;
+  font-family:Open Sans;
+  font-style:italic;
+  color: #555555;
+  padding:1.2em 30px 1.2em 75px;
+  border-left:12px solid #04b0e0 ;
+  line-height:1.6;
+  position: relative;
+  background:#EDEDED;
+}
+
+.otro-blockquote::before{
+  font-family:Arial;
+  content: "\201C";
+  color:#04b0e0;
+  font-size:4em;
+  position: absolute;
+  left: 10px;
+  top:-10px;
+}
+
+.otro-blockquote::after{
+  content: '';
+}
+
+.otro-blockquote span{
+  display:block;
+  color:#333333;
+  font-style: normal;
+  font-weight: bold;
+  margin-top:1em;
+}
+
+.otro-blockquote-inquote{
+  font-size:0.9em;
+  text-align:right;
 }
