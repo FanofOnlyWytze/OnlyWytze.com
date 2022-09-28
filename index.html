@@ -3,53 +3,29 @@
 <head>
     <meta charset="UTF-8">
     <title>OnlyWytze (Trademark Pending)</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="quotereader.js"></script>
 </head>
-<style>
-    body {
-        background-color:#ffffff;
-        background-repeat:no-repeat;
-        background-position:top left;
-        background-attachment:fixed;
-    }
-    button {
-      background-color: #04b0e0; /* Green */
-      border: none;
-      border-radius: 12 px;
-      color: white;
-      padding: 15px 32px;
-      text-align: center;
-      text-decoration: none;
-      display: inline-block;
-      font-size: 16px;
-      margin: 4px 2px;
-      font-family: Helvetica;
-      cursor:pointer;
-    }
-    p {
-      padding: 8px;
-      margin: 25px;
 
-      /* other styling */
-      background-color: #33475b;
-      border-radius: 10px;
-      color: white;
-      font-family: Avenir;
-      text-align:center;
-      width: 592px;
-      font-family: Helvetica;
-    }
-</style>
-<body>
+<body onload="newQuote()">
     <center><a href="index.html"><img src="images/index/onlywytze_logo.jpg" alt="OnlyWytze (Trademark Pending)"></a></center>
     <br><br><br>
     <center><a href="https://www.youtube.com/channel/UCIUKdyFUJgE2z0GE6XxDfmA/about"><img src="images/index/subscribe.png" alt="Subscribe" width="600"></a></center>
     <br><br>
+
+    <div id="quoteDisplay">
+        <!-- Quotes will display here-->
+    </div>
+    <br><br>
+    <center><button onclick="newQuote()">Load more quotes</button></center>
+
+    <br><br>
     <center><footer><p>
-        This is a site to signalboost the most influential Flesh and Blood content creator: <b>Only<font color="#04b0e0">Wytze</font></b> <br><br>
+        This is a site to signal boost the most influential Flesh and Blood content creator: <b>Only<font color="#04b0e0">Wytze</font></b> <br><br>
         Made by fans, for fans
         <br><br>
         <a href="index.html"><button class="button">Home</button></a>
         <a href="contact.html"><button class="button">Contact</button></a>
-    </p></footer><center>
+    </p></footer></center>
 </body>
 </html>
